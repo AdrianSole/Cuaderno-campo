@@ -1,0 +1,17 @@
+.mainContainer {
+  padding-top: 40px;
+  min-height: calc(100vh - 46px);
+}
+
+:root {
+  --font-family: "arial", "helvetica", sans-serif;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+}
+
+body {
+  font-family: var(--font-family);
+
+  font-weight: var(--font-regular);
+}

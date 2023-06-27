@@ -1,0 +1,43 @@
+@api= http://localhost:3001
+
+GET {{api}}/fitos
+
+###
+
+GET {{api}}/fitos/6463d2386d32f3e059abc37e
+
+###
+
+POST {{api}}/fitos
+Content-Type: application/json
+
+{
+    "nombre": "  COM 802 09 M RB",
+    "registro": "ES-00099",
+    "titular": "COMPO IBERIA",
+    "fabricante": "COMPO GMBH (ALEMANIA",
+    "fabrica": "SCHIRM GMBH STANDORT BAAR-EBENHAUSEN",
+    "formulado": "FOSFATO FERRICO (anhidro) 1,25% [RB] P/P",
+    "cantidad": 10,
+    "precio": 5
+}
+
+###
+
+DELETE {{api}}/fitos/6463d2266d32f3e059abc37c
+
+###
+
+PUT {{api}}/fitos/6463d2386d32f3e059abc37e
+Content-Type: application/json
+
+{
+    "nombre": "Le cambio el nombre para probar",
+    "registro": "ES-00099",
+    "titular": "COMPO IdsafadfafaBERIA",
+    "fabricante": "COMPO GMBH (ALEMANIA",
+    "fabrica": "SCHIRM GMBH STANDORT BAAR-EBENHAUSEN",
+    "formulado": "FOSFATO FERRICO (anhidro) 1,25% [RB] P/P",
+    "cantidad": 10,
+    "precio": 5
+}

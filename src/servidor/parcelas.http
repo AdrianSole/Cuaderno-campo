@@ -1,0 +1,28 @@
+@api= http://localhost:3001
+
+
+GET {{api}}/parcelas
+
+###
+
+POST {{api}}/parcelas
+Content-Type: application/json
+
+{
+    "tipoCultivo": "almendra",
+    "variedad": "marcona",
+    "certificado": "Global_Gap",
+    "codigoCertificado": "0507",
+    "paraje": "ValleDelEbro",
+    "parcela": "91",
+    "hectareas": "1.3",
+    "totalArboles": "100",
+    "fechaRecoleccion": "12/3",
+    "sistemaRiego": "Por goteo",
+    "fechaPlantacion": "3/4"
+}
+
+
+###
+
+GET {{api}}/parcelas/646cddee27c2dd30f7b09e29

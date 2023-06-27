@@ -1,0 +1,269 @@
+commit a99f82b390e398c3938f5b22b831a87c8707ea3c
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 31 23:39:59 2023 +0200
+
+    Documentacion desarrollo del proyecto parte de front parcelas
+
+commit 20593e1d8f47f5e9b4fbc8b330322d6fe8db249d
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 31 20:58:23 2023 +0200
+
+    Documentacion parte cliente, paginas, componentes
+
+commit bdb81cf72347fbc18559257f56426a6783ce492c
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 31 17:20:29 2023 +0200
+
+    Acabo la parte de context de las parcelas
+
+commit 2667193bbb61bb83863c1cd265105f8fc8b3b24a
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 31 17:07:45 2023 +0200
+
+    Documento instalacion y uso
+
+commit 297659bc8cd58bf62cf66fc6b40b14ada7a492ba
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Tue May 30 20:18:52 2023 +0200
+
+    Avanzo en la documentacion de la parte cliente, correccion de error en parcelascontext
+
+commit 0b067b4f0b9879458ae4ed4f53a3abe3b5093176
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Tue May 30 19:01:03 2023 +0200
+
+    Corrección de error en el form parcelas
+
+commit eedd561784e76ea3258036432f6bcf5923d0c975
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 29 19:40:48 2023 +0200
+
+    Correccion del error que no mostraba el pdf
+
+commit f97bd4bb0b800af5c5b6941f267cc3107c77b632
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 29 19:23:25 2023 +0200
+
+    Componente FitosContext
+
+commit e1bd11a671efa086374106ee3bfb805ecbf314d7
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 29 18:23:37 2023 +0200
+
+    Acabada documentacion de la parte del servidor y BBDD
+
+commit 697f3b47528fe0a8bebfc47924954726b7ff56d5
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 29 18:22:58 2023 +0200
+
+    Acabada documentacion de la parte del servidor
+
+commit d293277c203061609fdbf53863ed8e5a8430b61a
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sun May 28 16:45:04 2023 +0200
+
+    Cambios en como se muestra el contenido del pdf
+
+commit 84ccae862ad2bb2b465fe5d9c9d3922d2b9a082b
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sun May 28 11:34:58 2023 +0200
+
+    Componente 'DocuPDF' que permite generar un pdf con los datos de las parcelas y sus fitos aplicados, estilos pagina principal, quito seleccion por defecto en aplicar fitos, añado elementos a la mainPage
+
+commit 09359b839979a3c12b95749cbab1dd4b60e11a99
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat May 27 17:51:46 2023 +0200
+
+    Boton de borrado en la lista de parcelas, arreglar los estilos de la página de parcelas
+
+commit 9a657084d574224787062fe8ff378f8f62b68079
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat May 27 17:27:13 2023 +0200
+
+    Correccion de los estilos CSS en la pagina de 'Fitosanitarios'
+
+commit dd769fa5da011fb7bfdf6673f2208d8f6a521b24
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat May 27 16:54:57 2023 +0200
+
+    Nuevo campo en parcelas que permite guardar los fitosanitarios aplicados a la parcela desde la pagina de aplicar fitos
+
+commit 30e7c693abb50afa7ac81baeafa7684eb213c004
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat May 27 11:31:32 2023 +0200
+
+    Metodo de peticion individual de fito, componente aplicarfitos
+
+commit c142c3dba241f338be3734a4a42fd8fd72bc7ac6
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat May 27 09:50:51 2023 +0200
+
+    Evento onAdd para que recargue la lista al añadir, boton de borrado para cada elemento de la lista fitos
+
+commit e2abe7d30704101493a923114890033056403155
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Thu May 25 18:19:33 2023 +0200
+
+    Relaciono los componentes SearchFitos-FormFitos-FitosList para añadir fitosanitarios a la bbdd
+
+commit 6f57b6ba9762be6c012c884a96dffb23432dd603
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 24 18:28:35 2023 +0200
+
+    Arreglar estilos de FormParcelas y ParcelasList, creo parcelas en la bbdd desde el front
+
+commit afb5adea8c35808c2ec6fee1e64e736d9a5f1651
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Tue May 23 18:24:11 2023 +0200
+
+    Creo componentes para mostrar el contenido de las parcelas guardadas en la bbdd en su pagina correspondiente de la parte de front
+
+commit c41c1e441cc474a4aa85c1a16f6ba78119a2a411
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Tue May 23 17:43:16 2023 +0200
+
+    Creo la parte del servidor que conecta con la tabla parcelas de la base de datos
+
+commit 223f3edef82942b02354ebd636ae6d02f0ac8030
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 22 18:39:54 2023 +0200
+
+    Cambio estilos el componente fitoitem es independiente y lo saco de fitos list, cambios en la documentacion, almacen pasa a ser aplicacion de fitosanitarios
+
+commit 8306f3b17aa075edbf4a14712cfffb7cb6d2e60b
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Fri May 19 17:54:39 2023 +0200
+
+    Cambio el form de añadir fitosanitarios, peticion asincrona de crear fito en la base de datos
+
+commit 506ee27bb3c9de0d7077ac3a5ff5178d37235976
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Thu May 18 18:04:38 2023 +0200
+
+    Reorganizar estructura de proyecto, divido el componente FitosList en componentes mas pequeños
+
+commit 8fdac912a2c86311cde898d08fca0870e8dd1b7f
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 17 18:02:54 2023 +0200
+
+    Muestra los datos de la base de datos en la pagina 'Almacen'
+
+commit dcd9381815656a67297aa04e48bc4a9200d3b378
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 17 16:59:15 2023 +0200
+
+    funciones CRUD creadas en el servidor (fitos.controller.ts)
+
+commit c7602df314593665475dcf168d5341900328cad1
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Tue May 16 16:54:36 2023 +0200
+
+    Consigo conectarme a la bbdd
+
+commit 36d37aef19cf6b2b50f413d5d8a08985cebec68f
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 15 22:15:22 2023 +0200
+
+    Intento conectarme a la base de datos
+
+commit 38db1e93b7e9acf48d062ff2ee40643889d7dccb
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat May 13 12:01:35 2023 +0200
+
+    Cambio el servidor entero y lo configuro con ts
+
+commit daf40b11252077c2c64bffe9124231a78482bda8
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Thu May 11 19:58:53 2023 +0200
+
+    Añado <title> a las paginas, acabo el form de parcelas quito el font roboto
+
+commit 444815560a6c16747a8fdac55be165f916822340
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 10 20:22:50 2023 +0200
+
+    Cambios en mainpage y en formparcela
+
+commit 78e082c3540adf915b4f0a619908d4b572b77d42
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Wed May 10 18:49:21 2023 +0200
+
+    Comienzo con la documentación: Introducción, objetivos del proyecto...
+
+commit bfe6b9c78656015a225fdedbb64de3eb75920b4c
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 8 17:42:00 2023 +0200
+
+    Que el menu muestre donde estas en cada momento y quitar el fitos header
+
+commit d5916926a9da59461a4a4fabf4902fff52e61cb8
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Thu May 4 18:07:45 2023 +0200
+
+    Dar estilos a ocultar contenido, arreglar su funcionalidad, instalo next/fonts
+
+commit eceea51a97b163c6f7ff46837c286d812e132f37
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon May 1 12:36:52 2023 +0200
+
+    Creo pagina principal y cambio el content de esta a una pagina fitos, creo la estructura de la pag, con parcelas y almacen
+
+commit a48daf199a644ccc860b7356a748e1fd8f44bf87
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat Apr 29 11:50:52 2023 +0200
+
+    Componentes Navbar y Footer, estilos para FormFitos, añado logo en public
+
+commit fdd10237983c00ab6bcfc41ab1b13c15c9489389
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Sat Apr 29 08:52:56 2023 +0200
+
+    Cambios en la partede front, FormFitos
+
+commit 39e63bf474cbe6437baa4542d9aee317f60e7a34
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Thu Apr 27 16:42:20 2023 +0200
+
+    Renombrar componentes, cambios en servidor
+
+commit 8292ac759428bca91c0ff85231eeb2a74263b959
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon Apr 24 09:49:42 2023 +0200
+
+    Creacion inicial del servidor con express.js
+
+commit 96fb85886aaa2d4d49dcaab40ac0f03dc6786103
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Tue Apr 18 09:15:02 2023 +0200
+
+    Limpieza de codigo en SearchFitos, añado componente boton para añadir al inventario
+
+commit d4e53d197e840ffd0135259d81266dc3abf1291c
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon Apr 17 12:23:07 2023 +0200
+
+    Crear apartado cliente, añadir .json a servidor, crear primeros componentes en cliente
+
+commit 1887bc14841a4cea055a6bcc88923d6333e883b7
+Author: AdrianSole <adrimaella@gmail.com>
+Date:   Mon Apr 17 08:01:43 2023 +0200
+
+    Definir objetivos, crear parte cliente con next.js
+
+commit e946dceb0b33a94a4c3ed37fb9b0a9d039843c08
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Fri Mar 31 15:22:18 2023 +0000
+
+    Setting up GitHub Classroom Feedback
+
+commit dcb4d8694505a5ef9cf58c60b1c5d0b9b5729146
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Fri Mar 31 15:22:18 2023 +0000
+
+    GitHub Classroom Feedback
+
+commit e79a86cf47dfa4150a01ac90fcc21edbda87bc00
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Fri Mar 31 15:22:15 2023 +0000
+
+    Initial commit

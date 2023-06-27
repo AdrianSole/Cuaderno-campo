@@ -1,0 +1,56 @@
+.inputStyle {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  width: 20%;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.inputStyle:focus {
+  outline: none;
+  border-color: rgba(30, 182, 37, 0.5);
+  box-shadow: 0 0 5px rgba(30, 182, 37, 0.5);
+}
+
+.formStyle {
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.formStyle button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  align-self: flex-end;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formStyle button:hover {
+  background-color: #3e8e41;
+}
+
+.formGroup {
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+  margin-bottom: 1rem; /* Espacio entre cada par de etiquetas */
+}
+
+.formGroup label {
+  flex: 0 0 150px; /* Ancho fijo para la etiqueta */
+  margin-right: 1rem; /* Espacio entre la etiqueta y el input */
+}
+
+.formGroup .inputStyle {
+  flex: 1; /* Toma todo el ancho restante */
+}
